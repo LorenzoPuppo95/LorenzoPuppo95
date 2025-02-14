@@ -1,0 +1,13 @@
+.rotate img{
+    transform:rotateY(0deg);
+    -webkit-transform:rotateY(0deg);	
+	transition:0.7s;
+    -webkit-transition:0.7s;
+}
+
+.rotate:hover  img{
+    transform:rotateY(180deg);
+    -webkit-transform:rotateY(180deg);	
+	transition:0.5s;
+    -webkit-transition:0.5s;
+}
